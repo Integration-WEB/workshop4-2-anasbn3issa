@@ -1,0 +1,17 @@
+
+.button {
+    height: 3.56rem;
+    width: 10.62rem;
+    border-radius: 2rem;
+    background-color: $color-button;
+}
+
+.button-black{
+    @extend .button;
+    color: $icons-color-black;
+}
+.button-white {
+    @extend .button;
+    color: #ffffff;
+}
+
